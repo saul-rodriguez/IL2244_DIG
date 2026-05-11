@@ -1,7 +1,7 @@
 #NAME is the name of the top_module which should be inside the file top_module.v
 
-SRC = il2244_spi.v
-SRC_TB = il2244_spi_tb.v
+SRC = il2244_dig.v
+SRC_TB = il2244_dig_tb.v
 NAME= $(basename $(SRC))
 
 sim: $(NAME)
